@@ -15,6 +15,19 @@
 		ABA63A401FF104A20019BFD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA63A3F1FF104A20019BFD5 /* main.m */; };
 		ABA63A4A1FF104A20019BFD5 /* TestIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA63A491FF104A20019BFD5 /* TestIMTests.m */; };
 		ABA63A551FF104A20019BFD5 /* TestIMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA63A541FF104A20019BFD5 /* TestIMUITests.m */; };
+		ABB4640D1FF1D70700A529B5 /* WeChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB4640B1FF1D70700A529B5 /* WeChat.storyboard */; };
+		ABB464131FF1D7D600A529B5 /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB464111FF1D7D600A529B5 /* Contacts.storyboard */; };
+		ABB4641B1FF1D84600A529B5 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB464191FF1D84500A529B5 /* Discover.storyboard */; };
+		ABB4641E1FF1D86000A529B5 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB4641C1FF1D86000A529B5 /* Me.storyboard */; };
+		ABB464281FF1E01200A529B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB464271FF1E01200A529B5 /* Images.xcassets */; };
+		ABB4642A1FF1E02500A529B5 /* WeChat.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB464291FF1E02500A529B5 /* WeChat.xcassets */; };
+		ABB4642C1FF1E03500A529B5 /* Contacts.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB4642B1FF1E03500A529B5 /* Contacts.xcassets */; };
+		ABB4642E1FF1E04000A529B5 /* Discover.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB4642D1FF1E04000A529B5 /* Discover.xcassets */; };
+		ABB464301FF1E05000A529B5 /* Me.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB4642F1FF1E05000A529B5 /* Me.xcassets */; };
+		ABB4643B1FF1E98C00A529B5 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB4643A1FF1E98C00A529B5 /* MainController.m */; };
+		ABB4643E1FF1EC5D00A529B5 /* WeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB4643D1FF1EC5D00A529B5 /* WeChatViewController.m */; };
+		ABB464421FF1EE6200A529B5 /* WhatChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB464411FF1EE6200A529B5 /* WhatChatCell.m */; };
+		ABB464471FF24F3F00A529B5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ABB464461FF24F3F00A529B5 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,22 @@
 		ABA63A501FF104A20019BFD5 /* TestIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestIMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA63A541FF104A20019BFD5 /* TestIMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIMUITests.m; sourceTree = "<group>"; };
 		ABA63A561FF104A20019BFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB4640C1FF1D70700A529B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WeChat.storyboard; sourceTree = "<group>"; };
+		ABB464121FF1D7D600A529B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contacts.storyboard; sourceTree = "<group>"; };
+		ABB4641A1FF1D84500A529B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Discover.storyboard; sourceTree = "<group>"; };
+		ABB4641D1FF1D86000A529B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Me.storyboard; sourceTree = "<group>"; };
+		ABB464271FF1E01200A529B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABB464291FF1E02500A529B5 /* WeChat.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WeChat.xcassets; sourceTree = "<group>"; };
+		ABB4642B1FF1E03500A529B5 /* Contacts.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Contacts.xcassets; sourceTree = "<group>"; };
+		ABB4642D1FF1E04000A529B5 /* Discover.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Discover.xcassets; sourceTree = "<group>"; };
+		ABB4642F1FF1E05000A529B5 /* Me.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Me.xcassets; sourceTree = "<group>"; };
+		ABB464391FF1E98C00A529B5 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		ABB4643A1FF1E98C00A529B5 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		ABB4643C1FF1EC5D00A529B5 /* WeChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatViewController.h; sourceTree = "<group>"; };
+		ABB4643D1FF1EC5D00A529B5 /* WeChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatViewController.m; sourceTree = "<group>"; };
+		ABB464401FF1EE6200A529B5 /* WhatChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatChatCell.h; sourceTree = "<group>"; };
+		ABB464411FF1EE6200A529B5 /* WhatChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatChatCell.m; sourceTree = "<group>"; };
+		ABB464461FF24F3F00A529B5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +110,7 @@
 		ABA63A241FF104A20019BFD5 = {
 			isa = PBXGroup;
 			children = (
+				ABB464461FF24F3F00A529B5 /* .gitignore */,
 				ABA63A2F1FF104A20019BFD5 /* TestIM */,
 				ABA63A481FF104A20019BFD5 /* TestIMTests */,
 				ABA63A531FF104A20019BFD5 /* TestIMUITests */,
@@ -101,11 +131,22 @@
 		ABA63A2F1FF104A20019BFD5 /* TestIM */ = {
 			isa = PBXGroup;
 			children = (
+				ABB464351FF1E8A300A529B5 /* WeChat */,
+				ABB464361FF1E8DB00A529B5 /* Contacts */,
+				ABB464371FF1E8EE00A529B5 /* Discover */,
+				ABB464381FF1E91800A529B5 /* Me */,
+				ABB464261FF1DF2E00A529B5 /* Resources */,
 				ABA63A301FF104A20019BFD5 /* AppDelegate.h */,
 				ABA63A311FF104A20019BFD5 /* AppDelegate.m */,
 				ABA63A331FF104A20019BFD5 /* ViewController.h */,
 				ABA63A341FF104A20019BFD5 /* ViewController.m */,
+				ABB464391FF1E98C00A529B5 /* MainController.h */,
+				ABB4643A1FF1E98C00A529B5 /* MainController.m */,
 				ABA63A361FF104A20019BFD5 /* Main.storyboard */,
+				ABB4640B1FF1D70700A529B5 /* WeChat.storyboard */,
+				ABB464111FF1D7D600A529B5 /* Contacts.storyboard */,
+				ABB464191FF1D84500A529B5 /* Discover.storyboard */,
+				ABB4641C1FF1D86000A529B5 /* Me.storyboard */,
 				ABA63A391FF104A20019BFD5 /* Assets.xcassets */,
 				ABA63A3B1FF104A20019BFD5 /* LaunchScreen.storyboard */,
 				ABA63A3E1FF104A20019BFD5 /* Info.plist */,
@@ -130,6 +171,58 @@
 				ABA63A561FF104A20019BFD5 /* Info.plist */,
 			);
 			path = TestIMUITests;
+			sourceTree = "<group>";
+		};
+		ABB464261FF1DF2E00A529B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABB464271FF1E01200A529B5 /* Images.xcassets */,
+				ABB464291FF1E02500A529B5 /* WeChat.xcassets */,
+				ABB4642B1FF1E03500A529B5 /* Contacts.xcassets */,
+				ABB4642D1FF1E04000A529B5 /* Discover.xcassets */,
+				ABB4642F1FF1E05000A529B5 /* Me.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABB464351FF1E8A300A529B5 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				ABB4643F1FF1EE3C00A529B5 /* Cell */,
+				ABB4643C1FF1EC5D00A529B5 /* WeChatViewController.h */,
+				ABB4643D1FF1EC5D00A529B5 /* WeChatViewController.m */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		ABB464361FF1E8DB00A529B5 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		ABB464371FF1E8EE00A529B5 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		ABB464381FF1E91800A529B5 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		ABB4643F1FF1EE3C00A529B5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ABB464401FF1EE6200A529B5 /* WhatChatCell.h */,
+				ABB464411FF1EE6200A529B5 /* WhatChatCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +331,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB4640D1FF1D70700A529B5 /* WeChat.storyboard in Resources */,
+				ABB464281FF1E01200A529B5 /* Images.xcassets in Resources */,
 				ABA63A3D1FF104A20019BFD5 /* LaunchScreen.storyboard in Resources */,
+				ABB464131FF1D7D600A529B5 /* Contacts.storyboard in Resources */,
+				ABB4642E1FF1E04000A529B5 /* Discover.xcassets in Resources */,
+				ABB464301FF1E05000A529B5 /* Me.xcassets in Resources */,
+				ABB4642A1FF1E02500A529B5 /* WeChat.xcassets in Resources */,
 				ABA63A3A1FF104A20019BFD5 /* Assets.xcassets in Resources */,
+				ABB4642C1FF1E03500A529B5 /* Contacts.xcassets in Resources */,
+				ABB4641B1FF1D84600A529B5 /* Discover.storyboard in Resources */,
+				ABB4641E1FF1D86000A529B5 /* Me.storyboard in Resources */,
+				ABB464471FF24F3F00A529B5 /* .gitignore in Resources */,
 				ABA63A381FF104A20019BFD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +368,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB4643B1FF1E98C00A529B5 /* MainController.m in Sources */,
+				ABB464421FF1EE6200A529B5 /* WhatChatCell.m in Sources */,
 				ABA63A351FF104A20019BFD5 /* ViewController.m in Sources */,
 				ABA63A401FF104A20019BFD5 /* main.m in Sources */,
+				ABB4643E1FF1EC5D00A529B5 /* WeChatViewController.m in Sources */,
 				ABA63A321FF104A20019BFD5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +423,38 @@
 				ABA63A3C1FF104A20019BFD5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB4640B1FF1D70700A529B5 /* WeChat.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB4640C1FF1D70700A529B5 /* Base */,
+			);
+			name = WeChat.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB464111FF1D7D600A529B5 /* Contacts.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB464121FF1D7D600A529B5 /* Base */,
+			);
+			name = Contacts.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB464191FF1D84500A529B5 /* Discover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB4641A1FF1D84500A529B5 /* Base */,
+			);
+			name = Discover.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB4641C1FF1D86000A529B5 /* Me.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB4641D1FF1D86000A529B5 /* Base */,
+			);
+			name = Me.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
